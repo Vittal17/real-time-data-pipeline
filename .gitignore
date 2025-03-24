@@ -1,0 +1,29 @@
+# Python-specific ignores
+*.pyc              # Compiled Python bytecode files
+*.pyo              # Optimized bytecode
+*.pyd              # Python dynamic modules (Windows)
+__pycache__/       # Python cache directory
+*.egg-info/        # Setuptools package metadata
+dist/              # Distribution folder from packaging
+build/             # Build folder from packaging
+*.egg              # Python egg files
+venv/              # Virtual environment folder (if you use one)
+env/               # Another common virtual env name
+*.whl              # Wheel files (Python packages)
+
+# AWS-specific ignores
+.aws/              # AWS CLI config folder (e.g., credentials, config)
+credentials        # AWS credentials file
+config             # AWS config file
+*.log              # Log files from AWS SDK or your app
+
+# General ignores
+*.DS_Store         # macOS junk files
+*.swp              # Vim swap files
+*.bak              # Backup files
+*.tmp              # Temporary files
+*.bak              # Backup files
+
+# Project-specific (optional)
+my-tweet-bucket/   # If you accidentally create local dirs matching S3
+*.json             # Uncomment if you don’t want local JSON test files 
