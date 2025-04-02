@@ -43,5 +43,10 @@ This pipeline could analyze real-time bomb threat data (e.g., 2024 India hoax th
 - Analyze patterns (e.g., count threats per user).
 - Visualize data with AWS QuickSight.
 
+  ## Note
+AWS Kinesis costs ~$3.64(Rs.301.76)/month beyond free tier (1 shard-hour). Delete stream after testing—watch those charges!
+Please note that AWS Kinesis is a paid service even for a free tier account. Make sure you terminate the above mentioned scripts
+on your terminal so as to avoid any unnecessary charges.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
