@@ -32,6 +32,9 @@ This project builds a real-time data pipeline using AWS Kinesis, Python, and S3.
 - `producer.py`: Generates and streams fake tweets to Kinesis.
 - `consumer.py`: Processes the stream and stores data in S3.
 
+## How it works
+
+
 ## Use Case Example
 This pipeline could analyze real-time bomb threat data (e.g., 2024 India hoax threats):
 - Streams threats from social media or logs.
