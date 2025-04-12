@@ -33,7 +33,7 @@ This project builds a real-time data pipeline using AWS Kinesis, Python, and S3.
 - `consumer.py`: Processes the stream and stores data in S3.
 
 ## How it works
-![real-time data processing workflow]()
+![real-time data processing workflow](datapipeline.png)
 
 ## Use Case Example
 This pipeline could analyze real-time bomb threat data (e.g., 2024 India hoax threats):
