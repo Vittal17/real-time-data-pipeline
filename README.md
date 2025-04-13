@@ -43,9 +43,8 @@ This pipeline could analyze real-time bomb threat data (e.g., 2024 India hoax th
 
 ## Future Improvements
 - Add real-time alerts via AWS SNS.
-- Analyze patterns (e.g., count threats per user).
+- Analyze patterns using AWS Timestream(e.g., count threats per user).
 - Visualize data with AWS QuickSight.
-- Identify any kind of real-time data patterns using AWS Timestream (useful to identify threat patterns).
 
 ## Note
 AWS Kinesis costs ~$3.64(Rs.301.76)/month beyond free tier (1 shard-hour). Delete stream after testing—watch those charges!
