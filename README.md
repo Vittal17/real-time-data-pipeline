@@ -1,7 +1,7 @@
 # Real-Time Data Pipeline with AWS Kinesis and Python
 
 ## Overview
-This project builds a real-time data pipeline using AWS Kinesis, Python, and S3. It simulates streaming data (e.g., fake tweets or bomb threat logs) and processes it instantly, storing results in the cloud. It’s designed to showcase skills in cloud computing, Python, and event-driven systems—perfect for tackling scenarios like the 2024 India hoax bomb threats.
+This project builds a real-time data pipeline using AWS Kinesis, Python, and S3. It simulates streaming data (e.g., fake tweets or bomb threat logs) and processes it instantly, storing results in the cloud. It’s designed to showcase skills in cloud computing, Python, and event-driven systems—perfect for tackling scenarios like the 2024 Indian airlines hoax bomb threats.
 
 ### Features
 - **Producer**: Generates fake tweets and sends them to a Kinesis stream.
